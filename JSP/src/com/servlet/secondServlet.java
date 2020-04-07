@@ -17,7 +17,10 @@ public class secondServlet extends HttpServlet{
 	
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-	
+		//All methods to catch request from client
+		
+		
+		
 		//DISPATCHER CATCHER
 		//int sum = (int) req.getAttribute("sum");
 		
