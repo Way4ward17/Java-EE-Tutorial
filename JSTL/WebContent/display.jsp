@@ -3,6 +3,8 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/sql" prefix = "sql" %>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/functions" prefix = "fn" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,6 +50,13 @@ Gender: <%=rs.getString(4) %>
 </ul>
 
 </c:forEach> 
+
+
+
+
+<c:set var="str" value="Way4ward is a Java Developer"/>
+Length : ${fn:length(str)}
+
 
 
 
